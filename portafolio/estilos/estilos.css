@@ -1,0 +1,69 @@
+body {
+  background-color: lavender; 
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.container {
+  background-color: lightgoldenrodyellow ;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  background-color: lightgoldenrodyellow;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.nombre {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.usuario {
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.cuadrados {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.cuadrado {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+}
+
+.practicas button {
+  background-color: black;
+  color: #00cfff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.practicas button:hover {
+  opacity: 0.8;
+}
+.avatar img{
+  width: 100%;
+  border-radius: 100%;
+}
+
+.cuadrados .cuadrado{
+  color: lightgoldenrodyellow;
+
+}

@@ -1,0 +1,78 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+    background: lightgoldenrodyellow;
+    color: lightpink;font-family: century gotic;
+    font-size: 1.2rem;
+}
+
+header{
+	text-align: center;
+	padding: 20px;
+	border-bottom: 5px solid white;
+}
+
+main .galeria{
+	width: 60%;
+	background: lightpink;
+	margin: 0 auto;
+	padding: 15px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.galeria .foto{
+	width: 250px;
+	height: 250px;
+	background: lightpink;
+	margin: 15px 10px;
+	justify-content: space-evenly;
+}
+
+/*aqui acomodaremos las fotos para que entren en su caja*/
+
+ main .foto img{
+	width: 100%;
+	filter: grayscale(55%);
+	border: 1px solid lavender;
+}
+
+main .foto img:hover{
+	filter: grayscale(0%);
+	transition: 0.5s;
+	border: 1px solid lavender;
+}
+
+footer .presentacion{
+	width: 60%;
+	margin: 0 auto;
+}
+
+footer .foto{
+	width: 150px;
+	height: 150px;
+	background:lightblue;
+	border-radius: 100%;
+}
+
+footer .foto img{
+	width: 100%;
+	border-radius: 100%;
+}
+
+footer .texto{
+	width: 70%;
+}
+
+
+
+footer .presentacion{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}

@@ -1,0 +1,46 @@
+body{
+	background: url("../img/fondo.webp");
+	font-family: verdana;
+}
+
+
+div{
+
+	width:70% ;
+	background: white;
+	margin: 15px auto;
+	padding: 15px;
+	border-radius: 20px;
+	border: 1px solid #505454;
+
+}
+
+div:hover{
+	background: black;
+	color: white;
+}
+
+
+/*Texto de caja inicio y pie concentrado*/
+
+.inicio, .pie{
+	text-align: center;
+}
+
+/*Texto de caja principal debe 
+tener texto justificado y con
+ mayor interlineado*/
+
+ .principal p{
+ 	text-align: justify;
+ 	line-height: 30px;
+ }
+
+
+
+
+
+
+
+
+
